@@ -1,0 +1,19 @@
+#1 grep '^Z' cities.txt | cat -n
+
+#2 grep 'gan$' cities.txt | cat -n
+
+#3 grep ^[A,D,E] cities.txt | cat -n
+
+#4 grep '\<.ar' cities.txt | cat -n
+
+#5 grep ^[^C] cities.txt | cat -n
+
+#6 egrep '^\S{14}' cities.txt | cat -n
+
+#7 grep '^B' cities.txt | cat -n
+
+#8 grep -o 'd' cities.txt | cat -n
+
+#9 egrep '(.)\1{1,}' cities.txt | cat -n
+
+#10 egrep '^\S{5}$' cities.txt | egrep -i '(.)(.)(.)\2\1' | cat -n
